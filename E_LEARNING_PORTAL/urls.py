@@ -20,17 +20,18 @@ from UIC_LEARNING.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', About, name='About'),
-    path('Efront/', Efront,  name='Efront'),
-    path('htmlCourse/', htmlCourse,  name='htmlCourse'),
+    path('', index,  name='index'),
+    path('threeMonths/', threeMonths,  name='threeMonths'),
     path('enrollForm/', enrollForm,  name='enrollForm'),
     path('enrollFormAPI/', enrollFormAPI,  name='enrollFormAPI'),
-    path('pythonCourse/', pythonCourse ,  name='pythonCourse'),
-    path('javaCourse/', javaCourse,  name='javaCourse'),
+    path('sixMonths/', sixMonths,  name='sixMonths'),
+    path('nineMonths/', nineMonths,  name='nineMonths'),
     path('LoginForm/', LoginForm,  name='LoginForm'),
     path('LoginFormAPI/', LoginFormAPI,  name='LoginFormAPI'),
     path('htmlVideo/', htmlVideo,  name='htmlVideo'),
     path('pythonVideo/', pythonVideo,  name='pythonVideo'),
     path('javaVideo/', javaVideo,  name='javaVideo'),
+    path('contact/', contact,  name='contact'),
+    path('contactAPI/', contactAPI,  name='contactAPI'),
     
 ]

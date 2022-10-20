@@ -11,13 +11,14 @@
 <body topmargin= "100">
 <center>
 <form action="" method="get" id="enform" name="formal">{% csrf_token %}
-<h1><font face="<Lucida Handwriting" size=+6 color= "brown"> Student Enrollment Form</font> </h1>
+<h1><font face="<Lucida Handwriting" size=+6 color= "brown"> Fitness Freek Enrollment Form</font> </h1>
 <table cellspacing="15">
 <tr>
+	<td>
+		<font  size=+2> <b> Full Name </b>
+		</td>
 <td>
-<font  size=+2> <b> Full Name </b>
-</td>
-<td>
+
 <input id= "fname" size=+50 type="text" name="FullName">
 </td>
 </tr>
@@ -51,9 +52,9 @@
 </td>
 <td>
 <select id="course" name="dropdown">
-		<option value="HTML">HTML</option>
-		<option value="Python">Python</option>
-		<option value="Java">Java</option>
+		<option value="3MonthPlanH">3 Month PlanH</option>
+		<option value="6MonthPlanP">6 Month PlanP</option>
+		<option value="9MonthPlanJ">9 Month PlanJ</option>
 		</select>
 </td>
 </tr>
